@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 // using System;
@@ -50,7 +50,7 @@ public class DifferentSpellsToCast : MonoBehaviour {
             GameObject.Find("Spell To Defeat Name Text").GetComponent<Text>().text = "Make yourself invisible"; 
         } else if(spellIndex >= 0.8f && spellIndex <= 1.0f )
         {
-            GameObject.Find("Spell To Defeat Name Text").GetComponent<Text>().text = "Absorbe all light and create drarkness"; 
+            GameObject.Find("Spell To Defeat Name Text").GetComponent<Text>().text = "Absorb all light and create drarkness"; 
         }
            
     }

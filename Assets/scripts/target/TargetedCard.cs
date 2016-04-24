@@ -59,7 +59,7 @@ public class TargetedCard : MonoBehaviour {
                     
                 {   
                     ts.m_currentlySelectedCards.Add(ts.m_waterCard);
-                    this.gameObject.SetActive(false);
+                    Destroy(this.gameObject);
                     ts.containsWater = true;
                     
                 
@@ -68,7 +68,7 @@ public class TargetedCard : MonoBehaviour {
                     
                 {   
                     ts.m_currentlySelectedCards.Add(ts.m_fireCard);
-                    this.gameObject.SetActive(false);
+                    Destroy(this.gameObject);
                     ts.containsFire = true;
 
                 }
@@ -76,7 +76,7 @@ public class TargetedCard : MonoBehaviour {
                     
                 {   
                     ts.m_currentlySelectedCards.Add(ts.m_airCard);
-                    this.gameObject.SetActive(false);
+                    Destroy(this.gameObject);
                     ts.containsAir = true;
 
                 }
@@ -84,7 +84,7 @@ public class TargetedCard : MonoBehaviour {
                     
                 {   
                     ts.m_currentlySelectedCards.Add(ts.m_earthCard);
-                    this.gameObject.SetActive(false);
+                    Destroy(this.gameObject);
                     ts.containsEarth = true;
 
                 }
@@ -92,7 +92,7 @@ public class TargetedCard : MonoBehaviour {
                     
                 {   
                     ts.m_currentlySelectedCards.Add(ts.m_energyCard);
-                    this.gameObject.SetActive(false);
+                    Destroy(this.gameObject);
                     ts.containsEnergy = true;
 
                 } 
